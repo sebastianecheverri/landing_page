@@ -11,11 +11,37 @@ body {
 .flex-container {
     background-color: rgba(46, 44, 44, 0.7);
     width: 600px;
-    height: 300px;
+    height: auto;
     margin: 80px;
-    padding: 10px;
-    padding-left: 10px;
-    border-radius: 3%;
-
+    padding: 10px 10px;
+    border-radius: 12px;
 }
 
+.flex-container > a {
+    width: 100px;
+    background-color: #DB3030;
+    border: none;
+    color: white;
+    padding: 12px 35px;
+    margin: 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+}
+
+.flex-container > p , h1 {
+    text-align: justify;
+    padding: 8px;
+    margin: 4px;
+}
+
+.flex-container > h1 {
+    font-weight: 700;
+}
+
+.flex-container > p {
+    font-weight: 400;
+}
