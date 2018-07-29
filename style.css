@@ -9,8 +9,11 @@ body {
 }
 
 .flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: rgba(46, 44, 44, 0.7);
-    width: 600px;
+    max-width: 600px;
     height: auto;
     margin: 80px;
     padding: 10px 10px;
@@ -29,7 +32,6 @@ body {
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
-    display: flex;
 }
 
 .flex-container > p , h1 {
