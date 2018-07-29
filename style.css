@@ -47,3 +47,13 @@ body {
 .flex-container > p {
     font-weight: 400;
 }
+
+@media screen and (max-width: 600px)
+    body {
+        font-size: 12px;
+    }
+
+    .flex-container {
+        margin: 30px;
+    }
+}
